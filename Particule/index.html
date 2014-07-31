@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.3.min.css">
+    <script type="text/javascript" src="js/webapp.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.3.min.js"></script>
+    <title>Particule</title>
+</head>
+
+<body>
+
+<div class="header">
+  <h1 id="show_ctrl">Particule</h1>
+</div><!-- header -->
+
+<div class="canvas">
+  <canvas id="render"></canvas>
+</div>
+
+<div id="controls">
+
+<ul>
+    <li>
+      <label for="rate">Rate</label>
+      <input id="rate" type="range" class="range" min="1" max="20" value="10"/>
+    </li>
+
+    <li>
+      <label for="alpha">Color alpha</label>
+      <input id="alpha" type="range" class="range" min="1" max="100" value="100"/>
+    </li>
+
+    <li>
+      <label for="automove">Auto move</label>
+      <input type="checkbox" id="automove" />
+    </li>
+
+    <li>
+      <label for="followMouse">Follow mouse</label>
+      <input type="checkbox" id="followMouse" />
+    </li>
+
+  </ul>
+
+  <h4>Particles</h4>
+  <ul>
+    <li>
+      <label for="size">Size</label>
+      <input id="size" type="range" class="range" min="1" max="32" value="4"/>
+    </li>
+    <li>
+      <label for="color">Color (hue)</label>
+      <input id="color" type="range" class="range" min="0" max="360" value="180"/>
+    </li>
+    <li>
+      <label for="speed">Speed</label>
+      <input id="speed" type="range" class="range" min="10" max="255" value="20"/>
+    </li>
+    <li>
+      <label for="lifetime">Lifetime</label>
+      <input id="lifetime" type="range" class="range" min="1" max="4" value="2" step="0.25" />
+    </li>
+    <li>
+      <label for="circle">Circular shape</label>
+      <input type="checkbox" id="circle" />
+    </li>
+    <li>
+      <label for="fill">Fill</label>
+      <input type="checkbox" id="fill" />
+    </li>
+    <li>
+      <label for="bouncing">Bouncing</label>
+      <input type="checkbox" id="bouncing" />
+    </li>
+    <li>
+      <label for="randomColor">Random Color</label>
+      <input type="checkbox" id="randomColor" />
+    </li>
+    <li>
+      <label for="cycleColor">Cycle Color</label>
+      <input type="checkbox" id="cycleColor" />
+    </li>
+
+  </ul>
+</div>
+
+</body>
+</html>

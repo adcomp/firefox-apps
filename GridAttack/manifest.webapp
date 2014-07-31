@@ -1,0 +1,19 @@
+{
+    "version": "1.2",
+    "name": "Grid Attack",
+    "launch_path": "/index.html",
+    "description": "2D game with HTML5 canvas.",
+    "icons": {
+        "128": "/images/logo128.png"
+    },
+    "fullscreen": true,
+    "orientation": ["portrait"]
+    "developer": {
+        "name": "David Art [aka] ADcomp",
+        "url": "https://www.google.com/+DavidArt"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en",
+    "permissions": {
+    }
+}

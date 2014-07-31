@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Play GridAttack, a match-three casual puzzle game.">
+  <meta name="author" content="ADcomp">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/game.js"></script>
+  <title>Grid Attack</title>
+</head>
+
+<body>
+
+<div id="game">
+  <div id="stage">
+    <canvas id="game-layer"></canvas>
+    <canvas id="background-layer" ></canvas>
+
+    <div id="menu">
+      <header>
+      <img src="images/gridattack.png">
+      </header>
+
+      <p id="instructions">
+        Match three or more blocks, in any direction, and don’t let the grid fill up!
+        Click each row to shoot a block, or use arrow keys with the SPACEBAR.
+      </p>
+
+      <button id="bt_play" class="button">Play</button>
+
+        <h2 id="music">
+        MUSIC <span id="music_onoff" class="on"></span>
+        </h2>
+        <h2 id="sound">
+        SOUND <span id="sound_onoff" class="on"></span>
+        </h2>
+
+    </div>
+
+    <div id="about">
+      <h1 id="label">PAUSE</h1>
+      <h2 id="score">000000</h2>
+      <h2 id="hiscore">000000</h2>
+      <button id="bt_info" class="button">&nbsp;</button>
+    </div>
+
+  </div>
+</div>
+
+<div id="audio">
+  <audio id="audio_track" src="audio/soundtrack.ogg" type="audio/ogg" preload="auto" loop></audio>
+  <audio id="audio_shoot" src="audio/shoot.ogg" type="audio/ogg" preload="auto"></audio>
+  <audio id="audio_match" src="audio/match.ogg" type="audio/ogg" preload="auto"></audio>
+  <audio id="audio_locked" src="audio/locked.ogg" type="audio/ogg" preload="auto"></audio>
+  <audio id="audio_over" src="audio/over.ogg" type="audio/ogg" preload="auto"></audio>
+  <audio id="audio_combo" src="audio/combo.ogg" type="audio/ogg" preload="auto"></audio>
+</div>
+
+</body>
+</html>

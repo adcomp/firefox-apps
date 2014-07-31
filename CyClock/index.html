@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.3.min.css">
+    <script type="text/javascript" src="js/webapp.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.3.min.js"></script>
+    <title>CyClock</title>
+</head>
+
+<body>
+
+<div class="header">
+  <h1 id="show_ctrl">CyClock</h1>
+
+  <div id="controls">
+
+    <ul>
+
+    <li>
+      <label for="size">Size</label>
+      <input id="size" type="range" class="range" min="1" max="64" value="32"/>
+    </li>
+
+    <li>
+      <label for="hue">Color Hue</label>
+      <input id="hue" type="range" class="range" min="0" max="360" value="0"/>
+    </li>
+
+    <li>
+      <label for="cycling">Color cycling</label>
+      <input id="cycling" type="checkbox" />
+    </li>
+
+    <li>
+      <label for="rounded">Rounded line</label>
+      <input id="rounded" type="checkbox" />
+    </li>
+
+    <li>
+      <label for="path">Show path</label>
+      <input id="path" type="checkbox" />
+    </li>
+
+    <li>
+      <label for="division">Show division</label>
+      <input id="division" type="checkbox" />
+    </li>
+
+
+
+    </ul>
+
+  </div>
+</div>
+
+<div class="footer">
+  <h2 id="time"><span id="hours"></span><small>:</small><span id="minutes"></span></h2>
+  <h3 id="date"></h3>
+</div>
+
+<div class="canvas">
+  <canvas id="clock"></canvas>
+</div>
+
+</body>
+</html>

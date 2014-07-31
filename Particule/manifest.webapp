@@ -1,0 +1,17 @@
+{
+    "version": "0.1",
+    "name": "Particule",
+    "launch_path": "/index.html",
+    "description": "Particles animation using HTML5 canvas.",
+    "icons": {
+        "128": "/images/logo128.png"
+    },
+    "developer": {
+        "name": "David Art [aka] ADcomp",
+        "url": "https://www.google.com/+DavidArt"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en",
+    "permissions": {
+    }
+}

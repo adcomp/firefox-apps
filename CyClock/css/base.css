@@ -1,0 +1,97 @@
+html, body {
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-family: 'Open Sans';
+  font-style: bold;
+  color: #999;
+  text-shadow: 2px 2px #1A1A1A;
+  padding: 0;
+  margin: 0;
+}
+
+h2 small {
+  color: #4D4D4D;
+  padding: 2px;
+}
+
+h3 {
+  font-family: monospace, 'Open Sans';
+  font-style: bold;
+  font-size: .7em;
+  color: #666;
+  text-shadow: 2px 2px #1A1A1A;
+  padding: 0;
+  margin: 0;
+}
+
+#clock {
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#controls {
+  overflow: auto;
+  display: none;
+  padding: 8px;
+  color: white;
+  opacity: .7;
+}
+
+#main {
+  width: 100%;
+}
+
+.header {
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+/*
+  border: 1px solid purple;
+*/
+}
+
+.header h1 {
+  color: #4D4D4D;
+  text-align: center;
+  font-size: 1.4em;
+/*
+  border: 1px solid green;
+*/
+  text-shadow: 2px 2px #1A1A1A;
+  background: url("../images/controls.png") no-repeat;
+}
+
+.footer {
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  color: white;
+/*
+  border: 1px solid red;
+*/
+}
+
+.canvas {
+  overflow: hidden;
+}
+
