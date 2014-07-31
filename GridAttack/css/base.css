@@ -21,24 +21,27 @@ ul {
   list-style-type: none;
 }
 
-h1 {}
+h1 { text-align: center; }
 
 h2 {
-  border: 2px solid #111;
-  border-radius: 4px;
+  text-align: center;
   font-weight: bold;
-  color: #E5E5E5;
+  color: #BFBFBF;
   text-shadow: 2px 2px #333;
   margin: 8px;
   font-size: 1.1em;
 }
 
-p {
-  color: #C0F0FF;
+small { font-size: 0.7em; }
+
+#instructions {
+  color: #D8E8F0;
   padding: 0 10px;
+  border: 0px solid orange;
+  margin-top: 16px;
 }
 
-#menu, #about {
+#menu, #credits {
   display:none;
   position: absolute;
   z-index: 20;
@@ -46,10 +49,77 @@ p {
   height: 100%;
   overflow: auto;
   background: black;
-  background-image: url(../images/background.png);
   background-size: 100% 100%;
   padding: 8px;
   text-align: left;
+}
+
+#menu {
+  background-image: url(../images/background.png);
+}
+
+#credits {
+  padding: 16px;
+  background-image: url(../images/background.png);
+}
+
+
+#bt_credits {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  font-size: 1em;
+  border-top: 2px solid #02204C;
+  color: #7F7F7F;
+  padding: 8px;
+}
+
+
+#profile {
+/*
+  border: 2px solid green;
+*/
+  height: 110px;
+  padding: 8px;
+  font-size: 1.4em;
+}
+
+#profile img {
+  width: 92px;
+  height: 92px;
+  float: left;
+  margin-right: 16px;
+}
+
+#links {
+  font-size: 1.2em;
+  padding: 16px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+#links a {
+  text-decoration: none;
+  color: #179;
+}
+
+#links span {
+  display: inline-block;
+/*
+  border: 2px solid red;
+*/
+  width: 100px;
+  text-align: right;
+  margin-right: 18px;
+}
+
+#soundtrack {
+  font-size: 0.8em;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: #4D4D4D;
 }
 
 #menu header {
@@ -122,7 +192,7 @@ canvas {
 
 .button {
   width: 100%;
-  padding: 8px;
+  padding: 2px;
   margin: 8px 0;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;

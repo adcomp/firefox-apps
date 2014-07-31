@@ -18,7 +18,7 @@
    inkscape:export-filename="gridattack.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="gridattack.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -122,7 +122,7 @@
     <linearGradient
        id="linearGradient3813-9">
       <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
+         style="stop-color:#393939;stop-opacity:0.91538459;"
          offset="0"
          id="stop3815-3" />
       <stop
@@ -528,24 +528,56 @@
        y2="1000.5409" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4141"
-       id="linearGradient3100"
+       xlink:href="#linearGradient3813"
+       id="linearGradient3087"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(15,2.846753)"
+       gradientTransform="matrix(0.92265245,0,0,0.80012142,14.854063,16.89414)"
+       x1="178.60043"
+       y1="61.076233"
+       x2="178.5778"
+       y2="79.455902" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4141"
+       id="linearGradient3090"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.000007,2.8153053)"
        x1="155.01318"
        y1="70.572395"
        x2="204.61568"
        y2="70.572395" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3813"
-       id="linearGradient3102"
+       xlink:href="#linearGradient3779"
+       id="linearGradient3103"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.92265245,0,0,0.80012142,28.854056,16.925588)"
-       x1="178.60043"
-       y1="61.076233"
-       x2="178.5778"
-       y2="79.455902" />
+       gradientTransform="matrix(0.76078973,0,0,0.76078972,-16.775077,-566.2354)"
+       x1="36.650867"
+       y1="976.56158"
+       x2="265.64328"
+       y2="976.56158" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3813-9"
+       id="linearGradient3875"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.76078967,0,0,0.76078967,-16.775068,-566.3066)"
+       x1="151.39729"
+       y1="974.89966"
+       x2="151.86111"
+       y2="1000.5409" />
+    <filter
+       inkscape:collect="always"
+       id="filter3901"
+       x="-0.030029588"
+       width="1.0600592"
+       y="-0.16397968"
+       height="1.3279594">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.1342822"
+         id="feGaussianBlur3903" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -555,14 +587,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.8780388"
-     inkscape:cx="110.115"
+     inkscape:cx="113.72507"
      inkscape:cy="67.727136"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1025"
-     inkscape:window-x="0"
+     inkscape:window-width="1918"
+     inkscape:window-height="1023"
+     inkscape:window-x="1"
      inkscape:window-y="29"
      inkscape:window-maximized="1">
     <inkscape:grid
@@ -591,90 +623,86 @@
      inkscape:label="block"
      style="display:inline"
      transform="translate(0,10)">
-    <g
-       id="g3081"
-       transform="translate(-13.999993,-0.03144766)">
-      <text
-         transform="scale(1.5501756,0.64508821)"
-         sodipodi:linespacing="125%"
-         id="text3007"
-         y="193.53433"
-         x="15.482119"
-         style="font-size:46.05060577px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient3096);fill-opacity:1;stroke:#000000;stroke-width:1.32672048;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;font-family:Standard Symbols L;-inkscape-font-specification:Standard Symbols L"
-         xml:space="preserve"><tspan
-           style="fill:url(#linearGradient3096);fill-opacity:1;stroke-width:1.32672048;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-           y="193.53433"
-           x="15.482119"
-           id="tspan3009"
-           sodipodi:role="line">ATTACK</tspan></text>
-      <path
-         inkscape:connector-curvature="0"
-         id="path3848"
-         d="m 91,-0.15325 -55,0 0,79.99995 55,0 0,-44.99995 -15,0 0,30 -25,0 0,-50 40,0 z"
-         style="fill:none;stroke:#a0e5ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4107)" />
-      <path
-         sodipodi:nodetypes="ccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3914"
-         d="m 229,79.8467 15,0 0,-64.99995 25,0 0,50 -15,0 0,14.99995 30,0 0,-79.99995 -55,0 z"
-         style="fill:none;stroke:#a0e5ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4115)" />
-      <path
-         sodipodi:nodetypes="ccccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3916"
-         d="m 106,79.8467 0,-79.99995 55,0 0,45 -15,0 0,34.99995 -15,0 0,-49.99995 15,0 0,-15 -25,0 0,64.99995 z"
-         style="fill:none;stroke:#a0e5ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4111)" />
-      <text
-         xml:space="preserve"
-         style="font-size:60.53000641px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient3098);fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.1744681;stroke-dasharray:none;display:inline;filter:url(#filter4127);font-family:Standard Symbols L;-inkscape-font-specification:Standard Symbols L"
-         x="36.727085"
-         y="152.60826"
-         id="text3809"
-         sodipodi:linespacing="125%"
-         transform="matrix(1.1793575,0,0,0.49077648,-19.314365,49.904273)"><tspan
-           sodipodi:role="line"
-           id="tspan3811"
-           x="36.727085"
-           y="152.60826"
-           style="fill:url(#linearGradient3098);fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.1744681;stroke-dasharray:none">ATTACK</tspan></text>
-      <path
-         inkscape:connector-curvature="0"
-         id="path3848-4"
-         d="m 91,-0.153247 -55,0 0,80 55,0 0,-45 -15,0 0,30 -25,0 0,-50 40,0 z"
-         style="fill:none;stroke:#61c4ff;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
-      <path
-         sodipodi:nodetypes="ccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3914-6"
-         d="m 229,79.846753 15,0 0,-65 25,0 0,50 -15,0 0,15 30,0 0,-80 -55,0 z"
-         style="fill:none;stroke:#61c4ff;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
-      <path
-         sodipodi:nodetypes="ccccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3916-2"
-         d="m 106,79.846753 0,-80 55,0 0,45 -15,0 0,35 -15,0 0,-50 15,0 0,-15 -25,0 0,65 z"
-         style="fill:none;stroke:#61c4ff;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
-      <rect
-         style="opacity:0.3;fill:#94a3ac;fill-opacity:0.49019608;stroke:#6f6f6f;stroke-width:1.02536702;stroke-miterlimit:4;stroke-opacity:0.49019608;stroke-dasharray:none"
-         id="rect3820"
-         width="46.470608"
-         height="78.235535"
-         x="171.57913"
-         y="-3.6721582" />
-      <rect
-         y="63.708981"
-         x="171.01318"
-         height="19.420338"
-         width="47.602497"
-         id="rect3818"
-         style="fill:url(#linearGradient3100);fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <rect
-         style="fill:url(#linearGradient3102);fill-opacity:1;stroke:#7d7d7d;stroke-width:1.71841097;stroke-miterlimit:4;stroke-opacity:0.49361704;stroke-dasharray:none;filter:url(#filter3842)"
-         id="rect3830"
-         width="43.920563"
-         height="15.538627"
-         x="172.79997"
-         y="65.622757" />
-    </g>
+    <text
+       transform="scale(1.5501755,0.64508825)"
+       sodipodi:linespacing="125%"
+       id="text3809"
+       y="193.41441"
+       x="11.12916"
+       style="font-size:46.05060196000000161px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient3875);fill-opacity:1;stroke:#005288;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;font-family:FreeMono;-inkscape-font-specification:FreeMono Bold Italic;opacity:1;filter:url(#filter3901)"
+       xml:space="preserve"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;fill:url(#linearGradient3875);fill-opacity:1;stroke:#005288;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:FreeMono;-inkscape-font-specification:FreeMono Bold Italic"
+         y="193.41441"
+         x="11.12916"
+         id="tspan3811"
+         sodipodi:role="line">ATTACK</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:46.05060576999999711px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient3103);fill-opacity:1;stroke:#000000;stroke-width:1.32672048000000009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;font-family:FreeMono;-inkscape-font-specification:FreeMono Bold Italic"
+       x="11.129152"
+       y="193.48558"
+       id="text3007"
+       sodipodi:linespacing="125%"
+       transform="scale(1.5501756,0.64508821)"><tspan
+         sodipodi:role="line"
+         id="tspan3009"
+         x="11.129152"
+         y="193.48558"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;fill:url(#linearGradient3103);fill-opacity:1;stroke-width:1.32672048000000009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;font-family:FreeMono;-inkscape-font-specification:FreeMono Bold Italic">ATTACK</tspan></text>
+    <path
+       style="fill:none;stroke:#a0e5ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4107)"
+       d="m 77.000007,-0.18469766 -55,0 0,79.99994966 55,0 0,-44.99995 -15,0 0,30 -25,0 0,-50 40,0 z"
+       id="path3848"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#a0e5ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4115)"
+       d="m 215.00001,79.815252 15,0 0,-64.99995 25,0 0,50 -15,0 0,14.99995 30,0 0,-79.99994966 -55,0 z"
+       id="path3914"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       style="fill:none;stroke:#a0e5ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4111)"
+       d="m 92.000007,79.815252 0,-79.99994966 55.000003,0 0,44.99999966 -15,0 0,34.99995 -15,0 0,-49.99995 15,0 0,-15 -25,0 0,64.99995 z"
+       id="path3916"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       style="fill:none;stroke:#61c4ff;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 77.000007,-0.18469466 -55,0 0,79.99999966 55,0 0,-45 -15,0 0,30 -25,0 0,-50 40,0 z"
+       id="path3848-4"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#61c4ff;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 215.00001,79.815305 15,0 0,-65 25,0 0,50 -15,0 0,15 30,0 0,-79.99999966 -55,0 z"
+       id="path3914-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       style="fill:none;stroke:#61c4ff;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 92.000007,79.815305 0,-79.99999966 55.000003,0 0,44.99999966 -15,0 0,35 -15,0 0,-50 15,0 0,-15 -25,0 0,65 z"
+       id="path3916-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <rect
+       y="-3.7036059"
+       x="157.57913"
+       height="78.235535"
+       width="46.470608"
+       id="rect3820"
+       style="opacity:0.3;fill:#94a3ac;fill-opacity:0.49019608;stroke:#6f6f6f;stroke-width:1.02536702;stroke-miterlimit:4;stroke-opacity:0.49019608;stroke-dasharray:none" />
+    <rect
+       style="fill:url(#linearGradient3090);fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3818"
+       width="47.602497"
+       height="19.420338"
+       x="157.01318"
+       y="63.677532" />
+    <rect
+       y="65.591309"
+       x="158.79997"
+       height="15.538627"
+       width="43.920563"
+       id="rect3830"
+       style="fill:url(#linearGradient3087);fill-opacity:1;stroke:#7d7d7d;stroke-width:1.71841097;stroke-miterlimit:4;stroke-opacity:0.49361704;stroke-dasharray:none;filter:url(#filter3842)" />
   </g>
 </svg>

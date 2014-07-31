@@ -31,6 +31,14 @@ window.onload = function() {
   game.init();
   $('#menu').show();
   $('#game-layer').mousemove(function(evt) { game.setColPos(evt); });
+  $('#bt_credits').click(function() {
+    $('#menu').hide();
+    $('#credits').show();
+  });
+  $('#credits').click(function() {
+    $('#credits').hide();
+    $('#menu').show();
+  });
   $('#game-layer').click(function(evt) {
     var offset = $(this).offset();
     if (evt.clientY - offset.top < 64) {
@@ -79,7 +87,7 @@ var game = {
   width: 320,
   height: 480,
   sound: true,
-  music: true,
+  music: false,
   state: "stop",
   isOver: false,
   lastUpdate: 0,
@@ -114,7 +122,7 @@ var game = {
     this.reset();
     this.blk_size = (this.width - 2 * this.padding) / this.grid.cols;
     this.drawBackground();
-    $('#audio_track').trigger('play');
+    if (this.music) { $('#audio_track').trigger('play'); }
   },
 
   reset: function() {

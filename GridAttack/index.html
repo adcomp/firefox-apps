@@ -13,15 +13,14 @@
 
 <body>
 
-<div id="game">
   <div id="stage">
     <canvas id="game-layer"></canvas>
     <canvas id="background-layer" ></canvas>
 
     <div id="menu">
-      <header>
-      <img src="images/gridattack.png">
-      </header>
+      <h1>
+        <img src="images/gridattack.png">
+      </h1>
 
       <p id="instructions">
         Match three or more blocks, in any direction, and don’t let the grid fill up!
@@ -31,23 +30,64 @@
       <button id="bt_play" class="button">Play</button>
 
         <h2 id="music">
-        MUSIC <span id="music_onoff" class="on"></span>
+        MUSIC <span id="music_onoff" class="on off"></span>
         </h2>
         <h2 id="sound">
         SOUND <span id="sound_onoff" class="on"></span>
         </h2>
 
+        <h3 id="bt_credits">credits</h3>
+
     </div>
 
-    <div id="about">
-      <h1 id="label">PAUSE</h1>
-      <h2 id="score">000000</h2>
-      <h2 id="hiscore">000000</h2>
-      <button id="bt_info" class="button">&nbsp;</button>
+    <div id="credits">
+      <h2>credits</h2>
+      <div id="profile">
+        <img src="images/adcomp.png">
+        <ul>
+        <li>
+        <b>David Art</b>
+        </li>
+        <li>
+        <small>aka</small>
+        </li>
+        <li>
+        ADcomp
+        </li>
+        </ul>
+      </div>
+
+      <hr />
+
+      <ul id="links">
+        <li>
+          <span>Google+ :</span> <a href="https://plus.google.com/+DavidArt">+DavidArt</a>
+          </li>
+        <li>
+          <span>Twitter :</span> <a href="https://twitter.com/adcomp77">@adcomp77</a>
+          </li>
+        <li>
+          <span>GitHub  :</span> <a href="https://github.com/adcomp">adcomp</a>
+          </li>
+      </ul>
+
+      <hr />
+
+      <h6 id="soundtrack">soundtrack</h6>
+      <ul>
+        <li>
+        "Lasting Hope" by Kevin MacLeod
+        </li>
+        <li>
+        <small>
+        Licensed under Creative Commons: By Attribution 3.0
+        </small>
+        </li>
+      </ul>
+
     </div>
 
   </div>
-</div>
 
 <div id="audio">
   <audio id="audio_track" src="audio/soundtrack.ogg" type="audio/ogg" preload="auto" loop></audio>
